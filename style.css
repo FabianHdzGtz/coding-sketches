@@ -1,0 +1,49 @@
+/* Tipografía base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #fefefe;
+  color: #222;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+  font-family: Impact, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #666;
+  margin-top: 2rem;
+}
+
+/* Párrafos y enlaces */
+p {
+  margin-top: 1.5rem;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+.volver {
+  margin-top: 3rem;
+}
+
+
